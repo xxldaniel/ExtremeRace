@@ -1,0 +1,46 @@
+html {
+    height: 100%
+}
+
+body {
+    background-image: url("../images/street_1920.png");
+    background-position: bottom left;
+    background-size: 40%;
+    background-repeat: repeat-x;
+    background-color: #0289bc;
+}
+
+#message-box {
+    position: fixed;
+    top: 20px;
+    width: 100%;
+}
+
+.message {
+    color: red;
+    font-size: 26px;
+    text-align: center;
+}
+
+#porsche {
+    position: fixed;
+    left: 0px;
+    width: 400px;
+    bottom: 0px;
+
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+#truck {
+    position: fixed;
+    left: 0px;
+    width: 400px;
+    bottom: 150px;
+    transform: scaleX(-1);
+
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
