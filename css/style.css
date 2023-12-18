@@ -10,18 +10,6 @@ body {
     background-color: #0289bc;
 }
 
-#message-box {
-    position: fixed;
-    top: 20px;
-    width: 100%;
-}
-
-.message {
-    color: red;
-    font-size: 26px;
-    text-align: center;
-}
-
 #porsche {
     position: fixed;
     left: 0px;
